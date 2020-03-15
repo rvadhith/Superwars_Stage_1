@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#main-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
+
+#super-heroes {
+  display: flex;
+  flex-direction: row;
+  justify-self: right;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+#score {
+  justify-self: center;
+}
+
+#super-villains {
+  display: flex;
+  flex-direction: row;
+  justify-self: left;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.heroes {
+  border: 2px solid grey;
+  border-radius: 5%;
+  margin: 5px;
+  padding: 5px;
+}
+
+.villains {
+  border: 2px solid grey;
+  border-radius: 5%;
+  margin: 5px;
+  padding: 5px;
+}
+
+.score-format {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.footer{
+  margin-left : 140px;
+  font-size : 18px;
+}
